@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  name: linux_agent
+  name: 'linux_agent'
 
 steps:
 - task: NodeTool@0
